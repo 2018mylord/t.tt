@@ -1,0 +1,65 @@
+
+
+
+
+
+
+.top{
+	/*height: 56px;*/
+	background-color: #323335;
+}
+.top .cart{
+	float: left;
+	width: 24px;
+	height: 56px;
+	background: gray;
+}
+.top .top-nav{
+	float: left;
+	background: pink;
+	margin-left: 400px;
+}
+.top .top-nav .top-nav-item{
+	float: left;
+	height: 56px;
+	line-height: 56px;
+	margin-right: 48px;
+}
+.top .user-info{
+	float: right;
+	width: 20px;
+	height: 56px;
+	color: #a2a3a3;
+	/*background: green;*/
+}
+.top .user-info1 .user-info1-box a,
+.top .user-info .user-info-box a{
+	display: inline-block;
+	width: 100%;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+}
+.top .user-info1 .user-info1-box .icon-user-info
+.top .user-info .user-info-box .icon-user-info{
+	font-size: 15px;
+}
+.top .user-info1{
+	float: right;
+	width: 20px;
+	height: 56px;
+	color: #a2a3a3;
+	/*background: purple;*/
+}
+.header{
+	height: 94px;
+	background: blue;
+}
+.main{
+	height: 5546px;
+	background: pink;
+}
+.end{
+	height: 440px;
+	background: tomato;
+}
