@@ -11,12 +11,18 @@
 .top .cart{
 	float: left;
 	width: 24px;
-	height: 56px;
-	background: gray;
+	height: 24px;
+	text-align: center;
+	line-height: 68px;
+	/*background: gray;*/
+}
+.top .cart img{
+	width: 24px;
+	height: 24px;
 }
 .top .top-nav{
 	float: left;
-	background: pink;
+	/*background: pink;*/
 	margin-left: 400px;
 }
 .top .top-nav .top-nav-item{
@@ -53,7 +59,82 @@
 }
 .header{
 	height: 94px;
-	background: blue;
+	/*background: blue;*/
+}
+.header .header-nav{
+	float: left;
+	margin-left: 184px;
+}
+.header .header-nav .header-nav-item{
+	float: left;
+	height: 94px;
+    line-height: 94px;
+	margin-right: 20px;
+}
+.header .header-nav .header-nav-item a{
+	font-size: 16px;
+	color: #333;
+
+}
+.header .header-nav .header-nav-item a:hover{
+	color: #c9d8fb;
+}
+.header .search{
+	position: relative;
+	float: right;
+	width: 416px;
+	height: 46px;
+	border: 1px solid #000;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-top: 24px;
+	/*z-index: 555;*/
+	/*background: yellow;*/
+}
+.header .search .search-text{
+	margin-right: 8px;
+	float: right;
+	width: 370px;
+	height: 100%;
+	outline: none;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	box-sizing: border-box;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.header .search .search-btn{
+	position: absolute;
+	float: left;
+	width: 46px;
+	height: 46px;
+	line-height: 50px;
+	font-size: 18px;
+	/*margin-top: 8px;*/
+	margin-left: 12px;
+	box-sizing: border-box;
+}
+.header .search .search-hot-words{
+	float: right;
+	right: 10px;
+	line-height: 46px;
+	position: absolute;
+}
+.header .search .search-hot-words .search-hot-words-item{
+	display: inline-block;
+	line-height: 22px;
+	padding: 0 6px;
+	color: #3965cc;
+	background: #bed2fb;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 .main{
 	height: 5546px;
